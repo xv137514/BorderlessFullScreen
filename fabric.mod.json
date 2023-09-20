@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "borderlessfullscreen",
+	"version": "${1.0}",
+	"name": "borderlessFullScreen",
+	"description": "按下F10将游戏窗口全屏并隐藏边框",
+	"authors": [
+		"xv137514"
+	],
+	"contact": {
+		"homepage": "https://github.com/xv137514",
+		"sources": "https://github.com/xv137514/BorderlessFullScreen"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/borderlessfullscreen/icon.jpg",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "com.borderlessfullscreen.BorderlessFullScreen"
+		]
+	},
+	"mixins": [
+		"borderlessfullscreen.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
